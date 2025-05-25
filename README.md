@@ -28,12 +28,7 @@ This project demonstrates a complete end-to-end data engineering pipeline using 
 2. Replace the placeholders with your actual AWS RDS credentials 
 3. Run each cell step-by-step
 4. The data will be uploaded to your PostgreSQL instance under the table "retail_sales"
-
-## Example Output
-Sample SQL query:
-**SELECT * FROM retail_sales LIMIT 5;**
-Returns a snapshot of the transformed data, confirming successful ingestion.
-
+   
 # retail_pipeline_to_postgresql.ipynb
 
 This version builds on the basic pipeline by securely uploading the cleaned data into a cloud-hosted PostgreSQL database using AWS RDS. It simulates a real-world backend data flow, where data isn’t just analyzed but stored in a scalable production environment.
