@@ -21,11 +21,6 @@ This project demonstrates a complete end-to-end data engineering pipeline using 
 3. Run each cell step-by-step
 4. The data will be uploaded to your PostgreSQL instance under the table "retail_sales"
 
-## Security notes
-- Credentials are handled via input() and getpass() to keep them private
-- No live credentials or endpoints are exposed in this notebook
-- It is safe to publish this project publicly (e.g., on GitHub) once cleaned
-
 ## Example Output
 Sample SQL query:
 **SELECT * FROM retail_sales LIMIT 5;**
