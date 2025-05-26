@@ -52,7 +52,13 @@ This version builds on the basic pipeline by securely uploading the cleaned data
 3. Execute each cell in order
 4. Check your PostgreSQL database for the uploaded data
 
-## Example Output
-**Test Query:**
-```sql
-SELECT * FROM retail_sales LIMIT 5;
+# Retail Sales Dashboard Notebook
+
+In addition to the core pipeline, this project includes a dashboard notebook (`retail_pipeline_dashboard.ipynb`) that visualizes key business insights:
+
+- 📅 Total Revenue by Month
+- 🛍️ Top-Selling Product Categories
+- 👤 Revenue by Gender
+- 👥 Revenue by Age Group
+
+This builds directly on the PostgreSQL database from the pipeline and uses Matplotlib and Seaborn for clean, digestible insights.
